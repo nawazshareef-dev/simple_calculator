@@ -32,7 +32,7 @@ body{
     gap: 1rem;
     padding: 20px 0;
 }
-.calcButton button{
+button{
     padding: 20px 0;
     border-radius: 10px;
     background-color: #333333;
@@ -40,16 +40,16 @@ body{
     box-shadow: 2px 2px 2px 1px white;
     font-size: 20px;
 }
-.calcButton .clearBtn{
+.calcButton #clearBtn{
     background-color: tomato;
     grid-column: span 3;
     box-shadow: none;
 }
-.calcButton .operator{
+.calcButton #operator{
     background-color: #ff9500;
     box-shadow: none;
 }
-.calcButton .equalTo{
+.calcButton #equalTo{
     grid-column: span 2;
     box-shadow: none;
     background-color: #1e90ff;
